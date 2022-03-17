@@ -46,7 +46,7 @@ def test_names_descr_ages():
     ages = pytest.driver.find_elements_by_xpath('//tbody/tr/td[3]')
     for i in range(len(names)):
         assert names[i].text != ''
-        assert poroda[i].text != ''
+        assert breeds[i].text != ''
         assert ages[i].text != ''
 
 #Питомцы не повторяются
